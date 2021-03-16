@@ -66,7 +66,7 @@ function secondoEs(scelta, numUser){
                 'Totale:' + somma);
 
 
-    if (somma % 2 == 0 && scelta == 'pari' || somma % 2 != 0 && scelta == 'dispari'){
+    if ((somma % 2 == 0 && scelta == 'pari') || (somma % 2 != 0 && scelta == 'dispari')){
         console.log('Hai vinto!');
     
     } else {
